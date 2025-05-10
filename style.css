@@ -1,0 +1,45 @@
+#cal{
+    display: grid;
+    grid-template-rows: repeat(5, 60px);
+    grid-template-columns: repeat(4, 100px);
+}
+form #textground{
+    grid-row: 1;
+    grid-column: 1/ -1;
+    border: 1px solid black;
+}
+form#equals{
+    grid-row: 1;
+    grid-column: 1/-1;
+    display: contents;
+}
+#add{
+    grid-row: 2;
+    grid-column: 4;
+}
+#subtract{
+    grid-row: 3;
+    grid-column: 4;
+}
+#multiply{
+    grid-row: 4;
+    grid-column: 4;
+}
+#divide{
+   grid-column: 4;
+}
+#send{
+    grid-row: 6;
+    grid-column: 2;
+    height: 60px;
+}
+#zero{
+    grid-column: 2;
+}
+#clear{
+    grid-row: 5;
+}
+#delete{
+    grid-row: 5;
+    grid-column: 3;
+}
